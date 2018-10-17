@@ -46,8 +46,26 @@
     ],
     "description": "A vuex basic module template"
   },
+  "Vue Router": {
+    "prefix": "vrouter",
+    "body": [
+      "import Vue from \"vue\";",
+      "import Router from \"vue-router\";\n",
+      "Vue.use(Router);\n",
+      "export default new Router({",
+      "  routes: [",
+      "    {",
+      "      path: \"/\",",
+      "      name: \"Home\",",
+      "      component: null",
+      "    }",
+      "  ]",
+      "});"
+    ],
+    "description": "A basic vue router template"
+  },
   "Object Export": {
-    "prefix": "expobject",
+    "prefix": "expobj",
     "body": ["export default {\n", "};"],
     "description": "A basic object export template"
   }
