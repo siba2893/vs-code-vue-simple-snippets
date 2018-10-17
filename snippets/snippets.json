@@ -3,19 +3,17 @@
     "prefix": "vuebase",
     "body": [
       "<template>",
-      " <div>\n",
+      " <div>",
       "\n",
-      " </div>\n",
-      "</template>\n",
+      " </div>",
+      "</template>",
       "\n",
-      "<script>\n",
-      " export default {\n",
+      "<script>",
+      " export default {",
       "\n",
-      " }\n",
+      " }",
       "</script>\n",
-      "\n",
       "<style scoped>\n",
-      "\n",
       "</style>"
     ],
     "description": "A vue basic template"
@@ -25,9 +23,7 @@
     "body": [
       "import Vue from \"vue\";\n",
       "import Vuex from \"vuex\";\n",
-      "\n",
       "Vue.use(Vuex);\n",
-      "\n",
       "export default new Vuex.Store({\n",
       "  modules: {},\n",
       "  state: {},\n",
@@ -42,20 +38,20 @@
     "prefix": "vxmod",
     "body": [
       "export default {\n",
-      "  state: {},\n",
+      "  state: {},",
       "  \n",
-      "  getters: {},\n",
+      "  getters: {},",
       "  \n",
-      "  actions: {},\n",
+      "  actions: {},",
       "  \n",
-      "  mutations: {}\n",
+      "  mutations: {}",
       "};"
     ],
     "description": "A vuex basic module template"
   },
   "Object Export": {
     "prefix": "expobject",
-    "body": ["export default {\n", "    \n", "}"],
+    "body": ["export default {\n", "\n", "}"],
     "description": "A basic object export template"
   }
 }

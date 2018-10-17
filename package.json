@@ -3,7 +3,7 @@
   "displayName": "vue-simple-snippets",
   "description": "A bundle of simple vue js snippets",
   "version": "0.0.1",
-  "publisher": "siba2893",
+  "publisher": "dsibaja2893",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.28.0"
@@ -19,6 +19,10 @@
     "snippets": [
       {
         "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/snippets.json"
       },
       {
