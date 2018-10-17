@@ -2,7 +2,7 @@
   "name": "vue-simple-snippets",
   "displayName": "vue-simple-snippets",
   "description": "A bundle of simple vue js snippets",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "dsibaja2893",
   "icon": "logo.png",
   "engines": {
