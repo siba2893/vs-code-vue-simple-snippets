@@ -1,0 +1,23 @@
+{
+  "vue": {
+    "prefix": "vuebase",
+    "body": [
+      "<template>\n" +
+        " <div>\n" +
+        "\n" +
+        " </div>\n" +
+        "</template>\n" +
+        "\n" +
+        "<script>\n" +
+        " export default {\n" +
+        "\n" +
+        " }\n" +
+        "</script>\n" +
+        "\n" +
+        "<style scoped>\n" +
+        "\n" +
+        "</style>"
+    ],
+    "description": "A vue basic template"
+  }
+}

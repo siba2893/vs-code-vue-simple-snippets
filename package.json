@@ -1,0 +1,30 @@
+{
+  "name": "vue-simple-snippets",
+  "displayName": "vue-simple-snippets",
+  "description": "A bundle of simple vue js snippets",
+  "version": "0.0.1",
+  "publisher": "siba2893",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siba2893/vs-code-vue-simple-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
