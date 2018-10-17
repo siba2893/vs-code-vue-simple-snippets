@@ -1,65 +1,80 @@
 # vue-simple-snippets README
 
-This is the README for your extension "vue-simple-snippets". After writing up a brief description, we recommend including the following sections.
+This is a set of vue snippets that will help you build your code faster.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Type:
 
-For example if there is an image subfolder under your extension project workspace:
+```
+vuebase
+```
 
-\!\[feature X\]\(images/feature-x.png\)
+```
+<template>
+ <div>
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+ </div>
+</template>
 
-## Requirements
+<script>
+ export default {
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+ }
+</script>
 
-## Extension Settings
+<style scoped>
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+</style>
+```
 
-For example:
+---
 
-This extension contributes the following settings:
+```
+vxstore
+```
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+```
+import Vue from "vue";
+import Vuex from "vuex";
 
-## Known Issues
+Vue.use(Vuex);
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+export default new Vuex.Store({
+  modules: {},
+  state: {},
+  getters: {},
+  actions: {},
+  mutations: {}
+});
+```
 
-## Release Notes
+---
 
-Users appreciate release notes as you update your extension.
+```
+vxmod
+```
 
-### 1.0.0
+```
+export default {
+  state: {},
 
-Initial release of ...
+  getters: {},
 
-### 1.0.1
+  actions: {},
 
-Fixed issue #.
+  mutations: {}
+};
+```
 
-### 1.1.0
+---
 
-Added features X, Y, and Z.
+```
+expobject
+```
 
------------------------------------------------------------------------------------------------------------
+```
+export default {
 
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+};
+```

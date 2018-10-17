@@ -1,5 +1,5 @@
 {
-  "vue": {
+  "Vue Base": {
     "prefix": "vuebase",
     "body": [
       "<template>",
@@ -19,5 +19,43 @@
       "</style>"
     ],
     "description": "A vue basic template"
+  },
+  "Vuex Base Store": {
+    "prefix": "vxstore",
+    "body": [
+      "import Vue from \"vue\";\n",
+      "import Vuex from \"vuex\";\n",
+      "\n",
+      "Vue.use(Vuex);\n",
+      "\n",
+      "export default new Vuex.Store({\n",
+      "  modules: {},\n",
+      "  state: {},\n",
+      "  getters: {},\n",
+      "  actions: {},\n",
+      "  mutations: {}\n",
+      "});"
+    ],
+    "description": "A vuex basic store template"
+  },
+  "Vuex Module": {
+    "prefix": "vxmod",
+    "body": [
+      "export default {\n",
+      "  state: {},\n",
+      "  \n",
+      "  getters: {},\n",
+      "  \n",
+      "  actions: {},\n",
+      "  \n",
+      "  mutations: {}\n",
+      "};"
+    ],
+    "description": "A vuex basic module template"
+  },
+  "Object Export": {
+    "prefix": "expobject",
+    "body": ["export default {\n", "    \n", "}"],
+    "description": "A basic object export template"
   }
 }
