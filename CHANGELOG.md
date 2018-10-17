@@ -1,7 +1,11 @@
 # Change Log
+
 All notable changes to the "vue-simple-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.2]
 
-## [Unreleased]
+- Formatting the code a bit
+
+## [0.0.1]
+
 - Initial release
